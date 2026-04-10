@@ -29,7 +29,7 @@ export default defineComponent({
   },
   data() {
     const dataManager = new DataManager({
-      url: "http://localhost:xxxx/api/Diagram",
+      url: "http://localhost:5137/api/Diagram",
     });
 
     return {
